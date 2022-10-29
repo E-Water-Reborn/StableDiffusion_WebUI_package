@@ -1,0 +1,6 @@
+For launch.py:
+1.Add "https://ghproxy.com/" before URL.
+2.Add "-i https://pypi.tuna.tsinghua.edu.cn/simple" in run_pip.
+3.Navigated to C:/users/user/ .cache/ 
+and then renamed the folder 'huggingface' to 'huggingfacebackup.' 
+This allowed the program to redownload the files, which must have been corrupted.
